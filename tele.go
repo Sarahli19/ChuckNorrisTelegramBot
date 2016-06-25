@@ -3,24 +3,12 @@ package main
 import (
 	"fmt"
 	"log"
-	//"math/rand"
+//"math/rand"
 	"encoding/json"
 	"net/http"
 	"html"
 	"github.com/go-telegram-bot-api/telegram-bot-api"
 )
-//type AutoGen struct {
-//	Matches []struct {
-//		Href string `json:"href"`
-//		Score int `json:"score"`
-//		Type string `json:"type"`
-//		URI string `json:"uri"`
-//		Value string `json:"value"`
-//	} `json:"matches"`
-//	Found int `json:"found"`
-//	Limit int `json:"limit"`
-//	Offset int `json:"offset"`
-//
 
 type AutoGen struct {
 	Type  string `json:"type"`
@@ -31,10 +19,7 @@ type AutoGen struct {
 	      } `json:"value"`
 }
 
-
-//423d89be3337fd9ab5fe0abae97a2e45239e3ba4eae8cd1a8aa5
 func main() {
-
 
 	//fmt.Printf(data.Value.Joke)
 
@@ -81,7 +66,6 @@ func main() {
 			//msg.ReplyToMessageID = update.Message.MessageID
 			bot.Send(msg)
 		}
-
 
 	}
 }

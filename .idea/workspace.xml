@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac752564-3dc9-4c5e-a69c-9eabddd0bc0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/Telegram.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Telegram/main.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pkg/windows_amd64/github.com/Syfaro/telegram-bot-api.a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/github.com/go-telegram-bot-api/telegram-bot-api" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sorry/sorry.go" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/goLibraries.xml" afterPath="$PROJECT_DIR$/.idea/goLibraries.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Godeps/godeps.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Telegram.iml" afterPath="$PROJECT_DIR$/Telegram.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tele.go" afterPath="$PROJECT_DIR$/tele.go" />
     </list>
     <ignored path="Telegram.iws" />
@@ -37,11 +30,21 @@
       <file leaf-file-name="tele.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tele.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54564756">
-              <caret line="59" column="72" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.5698324">
+              <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
               <folding>
-                <element signature="e#14#141#0" expanded="true" />
+                <element signature="e#14#140#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="godeps.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Godeps/godeps.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,6 +79,7 @@
         <option value="$PROJECT_DIR$/src/sorry/jokes.go" />
         <option value="$PROJECT_DIR$/out/production/Telegram/main.go" />
         <option value="$PROJECT_DIR$/../Telegram/tele.go" />
+        <option value="$PROJECT_DIR$/Godeps/godeps.json" />
         <option value="$PROJECT_DIR$/tele.go" />
       </list>
     </option>
@@ -223,6 +227,7 @@
     <property name="configurable.Module.libraries.is.expanded" value="false" />
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="go.libraries.notification.had.been.shown" value="true" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -643,12 +648,19 @@
       <workItem from="1461717354654" duration="496000" />
       <workItem from="1461719085609" duration="599000" />
       <workItem from="1461750159446" duration="1935000" />
-      <workItem from="1466807681107" duration="2268000" />
+      <workItem from="1466807681107" duration="4406000" />
     </task>
+    <task id="LOCAL-00001" summary="repaired shit">
+      <created>1466810051023</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1466810051023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33514000" />
+    <option name="totallyTimeSpent" value="35652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,7 +680,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38978493" sideWeight="0.5109255" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2594086" sideWeight="0.4852185" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -728,6 +740,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="repaired shit" />
+    <option name="LAST_COMMIT_MESSAGE" value="repaired shit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
@@ -774,7 +790,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#141#0" expanded="true" />
+            <element signature="e#14#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -802,7 +818,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#141#0" expanded="true" />
+            <element signature="e#14#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -830,7 +846,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#141#0" expanded="true" />
+            <element signature="e#14#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -858,7 +874,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#141#0" expanded="true" />
+            <element signature="e#14#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -886,7 +902,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#141#0" expanded="true" />
+            <element signature="e#14#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -924,7 +940,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#141#0" expanded="true" />
+            <element signature="e#14#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -966,7 +982,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#14#141#0" expanded="true" />
+            <element signature="e#14#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1081,12 +1097,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Godeps/godeps.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tele.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54564756">
-          <caret line="59" column="72" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.5698324">
+          <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
           <folding>
-            <element signature="e#14#141#0" expanded="true" />
+            <element signature="e#14#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
